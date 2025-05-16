@@ -1,0 +1,64 @@
+{
+  "seasons": [
+    {
+      "season_number": 1,
+      "year": 1996,
+      "episodes": [
+        {"number": 1, "title": "El detectiu més famós d'aquest segle", "type": "canon", "file": "S01E01.mp4"},
+        {"number": 2, "title": "El detectiu que es va encongir", "type": "canon", "file": "S01E02.mp4"},
+        {"number": 3, "title": "Compte amb els ídols", "type": "farcit", "file": "S01E03.mp4"},
+        {"number": 4, "title": "El peix brillant", "type": "farcit", "file": "S01E04.mp4"},
+        {"number": 5, "title": "L'explosió del tren d'alta velocitat", "type": "canon", "file": "S01E05.mp4"},
+        {"number": 6, "title": "El cas de l'assassinat del dia de Sant Valentí", "type": "farcit", "file": "S01E06.mp4"},
+        {"number": 7, "title": "L'amenaça del regal mensual", "type": "farcit", "file": "S01E07.mp4"},
+        {"number": 8, "title": "L'home de negre apareix", "type": "organització", "file": "S01E08.mp4"},
+        {"number": 9, "title": "El cas de l'assassinat de la festa de primavera", "type": "farcit", "file": "S01E09.mp4"},
+        {"number": 10, "title": "El cas del xantatge a un futbolista", "type": "farcit", "file": "S01E10.mp4"},
+        {"number": 11, "title": "El misteri del lladre de joies", "type": "farcit", "file": "S01E11.mp4"},
+        {"number": 12, "title": "La desaparició d'un actor famós", "type": "farcit", "file": "S01E12.mp4"},
+        {"number": 13, "title": "El cas del vol perdut", "type": "farcit", "file": "S01E13.mp4"},
+        {"number": 14, "title": "Un robatori en ple dia", "type": "farcit", "file": "S01E14.mp4"},
+        {"number": 15, "title": "L'assassinat a la mansió", "type": "farcit", "file": "S01E15.mp4"},
+        {"number": 16, "title": "El misteri de les cartes anònimes", "type": "farcit", "file": "S01E16.mp4"},
+        {"number": 17, "title": "El cas de la desaparició del jove científic", "type": "organització", "file": "S01E17.mp4"},
+        {"number": 18, "title": "El secret del pintor perdut", "type": "farcit", "file": "S01E18.mp4"},
+        {"number": 19, "title": "Un joc mortal", "type": "farcit", "file": "S01E19.mp4"},
+        {"number": 20, "title": "L'home escarlata", "type": "organització", "file": "S01E20.mp4"},
+        {"number": 21, "title": "L'assassinat en el vaixell", "type": "farcit", "file": "S01E21.mp4"},
+        {"number": 22, "title": "El misteri de la ciutat submergida", "type": "farcit", "file": "S01E22.mp4"},
+        {"number": 23, "title": "La venjança de l'assassí", "type": "farcit", "file": "S01E23.mp4"},
+        {"number": 24, "title": "El cas de la víctima desconeguda", "type": "farcit", "file": "S01E24.mp4"},
+        {"number": 25, "title": "El secret del rellotge antic", "type": "farcit", "file": "S01E25.mp4"},
+        {"number": 26, "title": "L'assassinat a la galeria d'art", "type": "farcit", "file": "S01E26.mp4"},
+        {"number": 27, "title": "La desaparició d'un tresor", "type": "farcit", "file": "S01E27.mp4"},
+        {"number": 28, "title": "L'enigma de la casa embruixada", "type": "farcit", "file": "S01E28.mp4"},
+        {"number": 29, "title": "El robatori de la joia de la corona", "type": "farcit", "file": "S01E29.mp4"},
+        {"number": 30, "title": "La màscara del misteri", "type": "farcit", "file": "S01E30.mp4"},
+        {"number": 31, "title": "El cas del trencament de l'amistat", "type": "farcit", "file": "S01E31.mp4"},
+        {"number": 32, "title": "Un assassinat a l'òpera", "type": "farcit", "file": "S01E32.mp4"},
+        {"number": 33, "title": "El lladre d'idees", "type": "farcit", "file": "S01E33.mp4"},
+        {"number": 34, "title": "La venjança de l'ombra", "type": "farcit", "file": "S01E34.mp4"},
+        {"number": 35, "title": "El misteri de les portes segellades", "type": "farcit", "file": "S01E35.mp4"},
+        {"number": 36, "title": "El cas de la marxa del científic", "type": "farcit", "file": "S01E36.mp4"},
+        {"number": 37, "title": "Un assassinat al teatre", "type": "farcit", "file": "S01E37.mp4"},
+        {"number": 38, "title": "El robatori en plena cerimònia", "type": "farcit", "file": "S01E38.mp4"},
+        {"number": 39, "title": "El misteri de la màquina de joc", "type": "farcit", "file": "S01E39.mp4"},
+        {"number": 40, "title": "La desaparició del raper", "type": "farcit", "file": "S01E40.mp4"},
+        {"number": 41, "title": "L'assassinat del banquer", "type": "farcit", "file": "S01E41.mp4"},
+        {"number": 42, "title": "El secret del diari antic", "type": "organització", "file": "S01E42.mp4"},
+        {"number": 43, "title": "El cas de la desaparició de l'empresari", "type": "farcit", "file": "S01E43.mp4"}
+      ]
+    },
+    {
+      "season_number": 2,
+      "year": 1997,
+      "episodes": [
+        {"number": 44, "title": "El paquet explosiu", "type": "farcit", "file": "S02E01.mp4"},
+        {"number": 45, "title": "L'assassinat de la companyia de teatre", "type": "farcit", "file": "S02E02.mp4"},
+        {"number": 46, "title": "El misteri del museu d'art", "type": "farcit", "file": "S02E03.mp4"},
+        {"number": 47, "title": "El cas de l'esportista desaparegut", "type": "farcit", "file": "S02E04.mp4"},
+        {"number": 48, "title": "Diplomàtics assassins", "type": "canon", "file": "S02E05.mp4"}
+      ]
+    }
+  ]
+}
