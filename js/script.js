@@ -84,16 +84,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>`;
 
-            // 3. Injecta la card al DOM
+            // Injecta la card al DOM
             grid.insertAdjacentHTML('beforeend', card);
 
-            // 4. Afegeix esdeveniment CLICK a la nova card
+            // Generació de cards
             const novaCard = grid.lastElementChild.querySelector('.card-episodi');
+
+            // Traductor d'URLs
+            const sanitizeMediaPath = (path) => {
+                return path.replace(/[^a-zA-Z0-9_\/\.\-:?=&%]/g, '');
+            };
+
+            // Defineix si obre un enllaç o un arxiu
             novaCard.addEventListener('click', () => {
-                // Accés a les dades de l'episodi clicat
-                console.log('Episodi clicat:', episodi.title);
-                // Exemple: Obrir vídeo (ajusta la ruta segons la teva estructura)
-                window.open(`media/${episodi.file}`, '_blank');
+                let mediaPath = sanitizeMediaPath(episodi.file);
+                if (mediaPath.startsWith('http')) {
+                    window.open(mediaPath, '_blank', 'noopener,noreferrer');
+                } else {
+                    mediaPath = `media/${encodeURI(mediaPath)}`; // encodeURI preserva '/'
+                    window.open(mediaPath, '_blank', 'noopener,noreferrer');
+                }
             });
         });
     }
