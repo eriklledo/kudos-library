@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             temporades = data.seasons.sort((a, b) => a.season_number - b.season_number);
             inicialitzarSelectorTemporades();
-            carregarTemporada(1); // Carregar primera temporada per defecte
+            carregarTemporada(1);
         })
         .catch(error => {
             console.error('Error carregant dades:', error);
@@ -58,7 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         episodis.forEach(episodi => {
-            const traduccions = { /* ... */ };
+            const traduccions = {
+                'main_story': {text: 'Canon', classe: 'badge-canon'},
+                'filler': {text: 'Farciment', classe: 'badge-farcit'},
+                'black_organization': {text: 'Organització dels Homes de Negre', classe: 'badge-homes-de-negre'},
+                'kaito_kid': {text: 'Kaito Kid', classe: 'badge-kaito-kid'}
+            };
 
             // 1. Genera els badges PRIMER
             const badges = episodi.type.map(t => {

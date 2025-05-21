@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="pushing project">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="Decoring css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/movies_data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ovas_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/episodes_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/episodes_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/episodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/episodes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747793160953</updated>
       <workItem from="1747793162686" duration="105000" />
-      <workItem from="1747793995256" duration="4764000" />
+      <workItem from="1747793995256" duration="11310000" />
     </task>
     <task id="LOCAL-00001" summary="pushing project">
       <option name="closed" value="true" />
@@ -80,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747793404845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decoring css">
+      <option name="closed" value="true" />
+      <created>1747800714405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747800714405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pushing project" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushing project" />
+    <MESSAGE value="Decoring css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decoring css" />
   </component>
 </project>

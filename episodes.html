@@ -37,80 +37,55 @@
 
 <main class="container mt-4">
   <div class="row mb-4">
+
     <!-- Selector de temporada -->
     <div class="col-md-4">
       <label for="selector-temporada"></label><select id="selector-temporada" class="form-select">
-        <option value="1">Temporada 1 (1996)</option>
-        <option value="2">Temporada 2 (1997)</option>
-        <option value="3">Temporada 3 (1998)</option>
-        <option value="4">Temporada 4 (1999)</option>
-        <option value="5">Temporada 5 (2000)</option>
-        <option value="6">Temporada 6 (2001)</option>
-        <option value="7">Temporada 7 (2002)</option>
-        <option value="8">Temporada 8 (2003)</option>
-        <option value="9">Temporada 9 (2004)</option>
-        <option value="10">Temporada 10 (2005)</option>
-        <option value="11">Temporada 11 (2006)</option>
-        <option value="12">Temporada 12 (2007)</option>
-        <option value="13">Temporada 13 (2008)</option>
-        <option value="14">Temporada 14 (2009)</option>
-        <option value="15">Temporada 15 (2010)</option>
-        <option value="16">Temporada 16 (2011)</option>
-        <option value="17">Temporada 17 (2012)</option>
-        <option value="18">Temporada 18 (2013)</option>
-        <option value="19">Temporada 19 (2014)</option>
-        <option value="20">Temporada 20 (2015)</option>
-        <option value="21">Temporada 21 (2016)</option>
-        <option value="22">Temporada 22 (2017)</option>
-        <option value="23">Temporada 23 (2018)</option>
-        <option value="24">Temporada 24 (2019)</option>
-        <option value="25">Temporada 25 (2020)</option>
-        <option value="26">Temporada 26 (2021)</option>
-        <option value="27">Temporada 27 (2022)</option>
-        <option value="28">Temporada 28 (2023)</option>
-        <option value="29">Temporada 29 (2024)</option>
-        <option value="30">Temporada 30 (2025)</option>
       </select>
     </div>
 
-    <!-- Paginació -->
+    <!-- Paginació inferior -->
     <div class="col-md-8 d-flex justify-content-end">
       <nav aria-label="Navegació entre temporades">
         <ul class="pagination mb-0">
           <li class="page-item">
-            <a class="page-link" href="#" id="anterior-temporada">Anterior</a>
+            <a class="page-link" href="#" id="anterior-temporada">«</a>
           </li>
           <li class="page-item disabled">
             <span class="page-link" id="temporada-actual">Temporada 1</span>
           </li>
           <li class="page-item">
-            <a class="page-link" href="#" id="seguent-temporada">Següent</a>
+            <a class="page-link" href="#" id="seguent-temporada">»</a>
           </li>
         </ul>
       </nav>
     </div>
-  </div>
 
-  <div id="capitols-grid" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-    <!-- Aquí es generaran les cards -->
-  </div>
+    <div id="capitols-grid" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+      <!-- Aquí es generaran les cards -->
+    </div>
 
-  <!-- Reproductor de vídeo -->
-  <div class="modal fade" id="videoModal" tabindex="-1">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content bg-dark">
-        <div class="modal-header border-0">
-          <h5 class="modal-title text-white" id="videoTitle"></h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body p-0">
-          <!-- Reproductor de vídeo integrat -->
-          <video id="videoPlayer" controls class="w-100">
-            <source src="" type="video/mp4">
-            El teu navegador no suporta la reproducció de vídeos.
-          </video>
+    <!-- Reproductor de vídeo -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-dark">
+          <div class="modal-header border-0">
+            <h5 class="modal-title text-white" id="videoTitle"></h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body p-0">
+            <video id="videoPlayer" controls class="w-100">
+              <source src="" type="video/mp4">
+              El teu navegador no suporta la reproducció de vídeos.
+            </video>
+          </div>
         </div>
       </div>
+    </div>
+
+    <!-- Contingut de la temporada actual -->
+    <div class="row" id="contingut-temporada">
+      <!-- Es carrega dinàmicament -->
     </div>
   </div>
 </main>

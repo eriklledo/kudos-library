@@ -71,7 +71,7 @@ main.container {
 
 .card-episodi .card-body {
     color: #fff !important;
-    padding: 1.25rem;
+    padding: 1.5rem;
     position: absolute;
     z-index: 3;
 }
@@ -125,7 +125,7 @@ main.container {
     border-color: #46627f;
     color: #07ffbd;
     border-radius: 8px !important;
-    margin: 0 3px;
+    margin-top: 75px;
     transition: all 0.2s ease;
 }
 
