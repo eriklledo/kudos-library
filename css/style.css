@@ -1,43 +1,26 @@
-/* Estil bàsic per la pàgina */
+/* ===== Estils Generals ===== */
 body {
     font-family: Arial, sans-serif;
-    background-color: #2d4457 !important; /* Fons fosc general */
-    color: #ffffff !important; /* Text blanc */
     margin: 0;
     padding: 0;
+    background-color: #2d4457 !important;
+    color: #ffffff !important;
 }
 
-/* Estil per al capçalera */
+/* ===== Capçalera i Navegació ===== */
 header {
-    background-color: #1e2b37; /* Color fosc per a la barra superior */
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); /* Una mica d'ombra per separar-la del fons */
-}
-
-header h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-footer {
     background-color: #1e2b37;
-    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* Barra de navegació */
 .navbar {
-    background-color: #1e2b37; /* Color distintiu fosc */
+    background-color: #1e2b37;
     padding: 15px 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); /* Ombra per donar profunditat */
 }
 
-/* Enllaços de la barra de navegació */
 .navbar a {
-    color: #ffffff; /* Text blanc */
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -45,132 +28,78 @@ footer {
     font-weight: bold;
 }
 
-/* Efecte hover */
 .navbar a:hover {
     background-color: #ffffff;
     color: #1e2b37;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efecte de brillantor */
-}
-
-/* Estil original modificat */
-.navbar .nav-item:not(.navbar-brand) .nav-link:hover {
-    background-color: #ffffff;
-    color: #1e2b37 !important;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-/* Estil específic per al navbar-brand */
 .navbar-brand {
     color: #fff !important;
-    transition: none !important;
     font-weight: bold;
-
 }
 
-.navbar-brand:hover {
-    background-color: transparent !important;
-    color: inherit !important;
-    box-shadow: none !important;
+/* ===== Peu de pàgina ===== */
+footer {
+    background-color: #1e2b37;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
 }
 
-/* Estil per a la secció principal */
-main {
-    padding: 20px;
+/* ===== Contingut Principal ===== */
+main.container {
+    padding: 20px 10px;
 }
 
-/* Estil per a la llista de capítols */
-ul#capitols-list {
-    list-style-type: none;
-    padding: 0;
+/* ===== Cards de Capítols ===== */
+.card-episodi {
+    background-color: #000 !important;
+    border-radius: 10px !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    min-height: 180px;
+    overflow: hidden;
 }
 
-/* Estil per a cada element de capítol */
-.capitol {
-    margin: 10px 0;
+.card-episodi:hover {
+    border: 5px solid #ffffff !important;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 142, 255, 0.2) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* Enllaços dels capítols */
-.capitol-enllac {
-    color: #07ffbd; /* Groc per destacar */
-    text-decoration: none;
-    font-size: 1.2em;
+.card-episodi .card-body {
+    color: #fff !important;
+    padding: 1.25rem;
+    position: absolute;
+    z-index: 3;
 }
 
-.capitol-enllac:hover {
-    color: #07ffbd; /* Color més viu quan es passa el cursor */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem;
 }
 
-/* Badges de tipus */
-.badge-organització { background-color: #dc3545 !important; }
-.badge-canon { background-color: #07ffbd !important; color: #000 !important; }
-.badge-farcit { background-color: #6c757d !important; }
-
-/* Cards més accessibles */
-.card-capitol {
-    transition: transform 0.2s;
-}
-.card-capitol:hover {
-    transform: scale(1.03);
-}
-
-/* Paginació */
-.page-link {
-    background-color: #34495e;
-    border-color: #46627f;
-    color: #07ffbd;
-}
-
-.page-link:hover {
-    background-color: #2d4050;
-    border-color: #3a4e63;
-    color: #fff;
-}
-
-.page-item.disabled .page-link {
-    background-color: #2d4050;
-    border-color: #3a4e63;
-}
-
-/* Selector de temporada */
-#selector-temporada {
-    background-color: #34495e;
-    border-color: #46627f;
-    color: white;
-}
-
-#selector-temporada:focus {
-    border-color: #07ffbd;
-    box-shadow: 0 0 0 0.25rem rgba(7, 255, 189, 0.25);
-}
-
-/* Sobreescriptura completa del botó */
-.btn-outline-warning {
-    color: #008eff !important; /* Color del text */
-    border-color: #008eff !important; /* Color del contorn */
-}
-
-.btn-outline-warning:hover {
-    color: #fff !important; /* Color del text en hover */
-    background-color: #008eff !important; /* Color de fons en hover */
-    border-color: #008eff !important;
-}
-
-.btn-outline-warning:focus {
-    box-shadow: 0 0 0 0.25rem rgba(7, 255, 189, 0.25) !important; /* Efecte de focus */
-}
-
-.btn-outline-warning:active {
-    background-color: #008eff !important;
-    border-color: #008eff !important;
-}
-
+/* ===== Badges ===== */
 .badge {
-    font-size: 0.8em !important;
+    transition: all 0.2s ease;
+    font-size: 0.75rem;
+    font-weight: 500 !important;
+    letter-spacing: 0.05em;
+    border-radius: 12px !important;
+    padding: 0.35em 0.65em !important;
+}
+
+.badge:hover {
+    filter: brightness(1.1);
 }
 
 .badge-canon {
     background-color: #008eff !important;
     color: #fff !important;
+    border: 1px solid #006ece !important;
 }
 
 .badge-farcit {
@@ -179,253 +108,63 @@ ul#capitols-list {
 }
 
 .badge-homes-de-negre {
-    background-color: #000000 !important;
-    color: #fff !important;
-}
-
-.badge-kaito-kid {
-    background-color: #07ffbd !important;
-    color: #1e2b37 !important;
-}
-
-.card-capitol {
-    background: #34495e;
-    border: 1px solid #46627f;
-    border-radius: 15px;
-}
-
-.card-capitol .card-body {
-    padding: 1.5rem;
-}
-
-.card-capitol .btn {
-    width: 100%;
-    margin-top: auto;
-}
-
-/* Millores generals de text */
-.card-title {
-    font-weight: 600 !important;
-}
-
-.card-subtitle {
-    color: #c0c0c0 !important;
-    font-size: 0.95em !important;
-    line-height: 1.4 !important;
-}
-
-/* Correcció del focus del botó */
-.btn-outline-warning:focus {
-    box-shadow: 0 0 0 0.25rem rgba(0, 142, 255, 0.25) !important; /* Coherent amb el blau */
-}
-
-/* Millores en els badges */
-.badge {
-    font-weight: 500 !important;
-    letter-spacing: 0.05em;
-    border-radius: 12px !important;
-    padding: 0.5em 0.8em !important;
-}
-
-.badge-canon {
-    background-color: #008eff !important;
-    border: 1px solid #006ece !important;
-}
-
-.badge-homes-de-negre {
     background-color: #2d2d2d !important;
+    color: #fff !important;
     border: 1px solid #000 !important;
 }
 
 .badge-kaito-kid {
     background-color: #07ffbd !important;
-    border: 1px solid #05d69b !important;
     color: #1a1a1a !important;
+    border: 1px solid #05d69b !important;
 }
 
-/* Millores en les cards */
-.card-capitol {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background: #34495e;
-    border: 1px solid #46627f !important;
-}
-
-.card-capitol:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 142, 255, 0.15);
-}
-
-/* Correcció del selector de temporada */
-#selector-temporada option {
-    background-color: #2d4457;
-    color: #fff;
-}
-
-/* Millores en la paginació */
+/* ===== Paginació ===== */
 .page-link {
-    transition: all 0.2s ease;
+    background-color: #34495e;
+    border-color: #46627f;
+    color: #07ffbd;
     border-radius: 8px !important;
     margin: 0 3px;
+    transition: all 0.2s ease;
 }
 
 .page-link:hover {
+    background-color: #2d4050;
+    border-color: #3a4e63;
+    color: #fff;
     transform: scale(1.05);
 }
 
-/* Container de temporades */
-#temporada-container {
-    background: #1e2b37;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-}
-
-/* Selector de temporades */
-.temporada-selector {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-/* Botons de navegació entre temporades */
-.temporada-navegacio button {
-    background: #008eff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    color: white;
-    transition: all 0.3s ease;
-}
-
-.temporada-navegacio button:hover {
-    background: #006ece;
-    transform: translateY(-2px);
-}
-
-.temporada-navegacio button:disabled {
-    background: #46627f;
-    cursor: not-allowed;
-    opacity: 0.7;
-}
-
-/* Efectes per a les cards */
-.card-episodi {
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-/* Overlay fosc en hover */
-.card-episodi:hover::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-}
-
-/* Icona de reproducció gran */
-.play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4rem;
-    color: rgba(255, 255, 255, 0.9);
-    opacity: 0;
-    transition: all 0.3s ease;
-    z-index: 2;
-}
-
-/* Animacions hover */
-.card-episodi:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 142, 255, 0.2);
-}
-
-.card-episodi:hover .play-icon {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
-/* Assegurar que el contingut està per sobre de l'overlay */
-.card-body * {
-    position: relative;
-    z-index: 3;
-}
-
-/* Cards - Mantenim tamany original */
-.card-episodi {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background: #34495e !important;
-    border: 1px solid #46627f !important;
-    min-height: 180px;
-}
-
-/* Overlay i icona de reproducció */
-.card-episodi::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-}
-
-.card-episodi:hover::before {
+.page-item.disabled .page-link {
+    color: #fff !important;
+    background-color: #2d4050;
+    border-color: #3a4e63;
     opacity: 1;
 }
 
-.play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3.5rem;
-    color: rgba(255, 255, 255, 0.9);
-    opacity: 0;
-    transition: all 0.3s ease;
-    z-index: 2;
-    pointer-events: none;
+/* ===== Modal de Vídeo ===== */
+#videoModal .modal-content {
+    background-color: #1e2b37;
 }
 
-.card-episodi:hover .play-icon {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.05);
+#videoPlayer {
+    background-color: #000;
 }
 
-/* Contingut de la card */
-.card-body {
-    background-color: black !important;
-    color: white !important;
-    position: relative;
-    z-index: 3; /* Manté el text per sobre de l'overlay */
-    padding: 1.25rem !important; /* Padding original de Bootstrap */
+.btn-close-white {
+    filter: invert(1);
 }
 
-/* Assegura el tamany correcte dels textos */
-.card-title {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.card-body:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-.badge {
-    font-size: 0.75rem;
-    padding: 0.35em 0.65em;
+    .card-episodi {
+        min-height: auto;
+        margin-bottom: 15px;
+    }
 }
