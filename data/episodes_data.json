@@ -1,0 +1,1196 @@
+{
+  "seasons": [
+    {
+      "season_number": 1,
+      "year": 1996,
+      "episodes": [
+        {
+          "number": 1,
+          "title": "El detectiu més famós d'aquest segle",
+          "type": [
+            "main_story",
+            "black_organization"
+          ],
+          "file": "media/s_01/0001.mp4"
+        },
+        {
+          "number": 2,
+          "title": "El famós detectiu que es va encongir",
+          "type": [
+            "main_story"
+          ],
+          "file": "media/s_01/0002.mp4"
+        },
+        {
+          "number": 3,
+          "title": "Compte amb els ídols",
+          "type": [
+            "main_story"
+          ],
+          "file": "media/s_01/0003.mp4"
+        },
+        {
+          "number": 4,
+          "title": "El peix brillant",
+          "type": [
+            "main_story"
+          ],
+          "file": "media/s_01/0004.mp4"
+        },
+        {
+          "number": 5,
+          "title": "L'explosió del tren d'alta velocitat",
+          "type": [
+            "main_story"
+          ],
+          "file": "media/s_01/0005.mp4"
+        },
+        {
+          "number": 6,
+          "title": "El cas de l'assassinat del dia de Sant Valentí",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E06.mp4"
+        },
+        {
+          "number": 7,
+          "title": "L'amenaça del regal mensual",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E07.mp4"
+        },
+        {
+          "number": 8,
+          "title": "El cas de l'assassinat del museu d'art",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E08.mp4"
+        },
+        {
+          "number": 9,
+          "title": "El cas de l'assassinat de la festa de primavera",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E09.mp4"
+        },
+        {
+          "number": 10,
+          "title": "El cas del xantatge a un futbolista",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E10.mp4"
+        },
+        {
+          "number": 11,
+          "title": "El cas de l'assassinat de la sonata \"Clar de lluna\" (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E11.mp4"
+        },
+        {
+          "number": 12,
+          "title": "El cas de l'assassinat de la sonata \"Clar de lluna\" (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E12.mp4"
+        },
+        {
+          "number": 13,
+          "title": "El segrest de l'Ayumi",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E13.mp4"
+        },
+        {
+          "number": 14,
+          "title": "El cas de la desaparició misteriosa",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E14.mp4"
+        },
+        {
+          "number": 15,
+          "title": "Un missatge molt misteriós",
+          "type": [
+            "main_story"
+          ],
+          "file": "https://youtu.be/FhwQasQGykY"
+        },
+        {
+          "number": 16,
+          "title": "El cadàver desaparegut",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E16.mp4"
+        },
+        {
+          "number": 17,
+          "title": "El cas de l'assassinat del col·leccionista",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E17.mp4"
+        },
+        {
+          "number": 18,
+          "title": "El cas del robatori dels grans magatzems",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E18.mp4"
+        },
+        {
+          "number": 19,
+          "title": "L'assassinat de la núvia",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E19.mp4"
+        },
+        {
+          "number": 20,
+          "title": "L'assassinat de l'ascensor",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E20.mp4"
+        },
+        {
+          "number": 21,
+          "title": "L'assassinat de la casa encantada",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E21.mp4"
+        },
+        {
+          "number": 22,
+          "title": "Un assassinat de pel·lícula",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E22.mp4"
+        },
+        {
+          "number": 23,
+          "title": "Els assassinats en sèrie del creuer de luxe (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E23.mp4"
+        },
+        {
+          "number": 24,
+          "title": "Els assassinats en sèrie del creuer de luxe (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E24.mp4"
+        },
+        {
+          "number": 25,
+          "title": "El misteri de la bonica amnèsica",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E25.mp4"
+        },
+        {
+          "number": 26,
+          "title": "Diners falsos en un cas de segrest",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E26.mp4"
+        },
+        {
+          "number": 27,
+          "title": "En John i el cas de l'assassinat",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E27.mp4"
+        },
+        {
+          "number": 28,
+          "title": "El cas de l'assassinat de la trobada d'antics alumnes (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E28.mp4"
+        },
+        {
+          "number": 29,
+          "title": "El cas de l'assassinat de la trobada d'antics alumnes (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E29.mp4"
+        },
+        {
+          "number": 30,
+          "title": "El cas de l'assassinat informàtic",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E30.mp4"
+        },
+        {
+          "number": 31,
+          "title": "El cas de la falsa coartada",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E31.mp4"
+        },
+        {
+          "number": 32,
+          "title": "Assassinat als estudis de televisió",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E32.mp4"
+        },
+        {
+          "number": 33,
+          "title": "L'assassinat de la cafeteria",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E33.mp4"
+        },
+        {
+          "number": 34,
+          "title": "Un tresor molt amagat",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E34.mp4"
+        },
+        {
+          "number": 35,
+          "title": "L'home misteriós del cas de l'assassinat de la casa de la muntanya (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E35.mp4"
+        },
+        {
+          "number": 36,
+          "title": "L'home misteriós del cas de l'assassinat de la casa de la muntanya (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E36.mp4"
+        },
+        {
+          "number": 37,
+          "title": "El cas de l'assassinat de dilluns a dos quarts de vuit del vespre",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E37.mp4"
+        },
+        {
+          "number": 38,
+          "title": "El cas de l'assassinat del cactus",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E38.mp4"
+        },
+        {
+          "number": 39,
+          "title": "El cas de l'assassinat de la festa del foc",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E39.mp4"
+        },
+        {
+          "number": 40,
+          "title": "El cas de l'hereva assassinada (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E40.mp4"
+        },
+        {
+          "number": 41,
+          "title": "El cas de l'hereva assassinada (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S01E41.mp4"
+        },
+        {
+          "number": 42,
+          "title": "L'incident de la bandera estripada",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E42.mp4"
+        },
+        {
+          "number": 43,
+          "title": "L'assassinat del karaoke",
+          "type": [
+            "main_story"
+          ],
+          "file": "S01E43.mp4"
+        }
+      ]
+    },
+    {
+      "season_number": 2,
+      "year": 1997,
+      "episodes": [
+        {
+          "number": 44,
+          "title": "El segrest d'en Conan Edogawa",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E01.mp4"
+        },
+        {
+          "number": 45,
+          "title": "L'assassinat del cap de la família Hotta",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E02.mp4"
+        },
+        {
+          "number": 46,
+          "title": "El cas de l'assassinat de la màscara facial",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E03.mp4"
+        },
+        {
+          "number": 47,
+          "title": "L'assassinat a la muntanya nevada",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E04.mp4"
+        },
+        {
+          "number": 48,
+          "title": "El cas de l'assassinat del club esportiu",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E05.mp4"
+        },
+        {
+          "number": 49,
+          "title": "L'assassinat d'un diplomàtic (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E06.mp4"
+        },
+        {
+          "number": 50,
+          "title": "L'assassinat d'un diplomàtic (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E07.mp4"
+        },
+        {
+          "number": 51,
+          "title": "El cas de l'assassinat de la biblioteca",
+          "type": [
+            "filler"
+          ],
+          "file": "S02E08.mp4"
+        },
+        {
+          "number": 52,
+          "title": "L'assassinat del camp de golf",
+          "type": [
+            "black_organization"
+          ],
+          "file": "S02E09.mp4"
+        },
+        {
+          "number": 53,
+          "title": "El cas de l'assassinat del follet de la boira (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S02E10.mp4"
+        },
+        {
+          "number": 54,
+          "title": "El cas de l'assassinat del follet de la boira (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S02E11.mp4"
+        },
+        {
+          "number": 55,
+          "title": "Una arma molt misteriosa",
+          "type": [
+            "filler"
+          ],
+          "file": "S02E12.mp4"
+        },
+        {
+          "number": 56,
+          "title": "El cas de l'assassinat de l'empresa de jocs",
+          "type": [
+            "filler"
+          ],
+          "file": "S02E13.mp4"
+        },
+        {
+          "number": 57,
+          "title": "El cas de l'assassinat del tren",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E14.mp4"
+        },
+        {
+          "number": 58,
+          "title": "El cas de l'assassinat de l'empresa de neteja",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E15.mp4"
+        },
+        {
+          "number": 59,
+          "title": "El cas de l'assassinat de la trobada de fans de Holmes (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E16.mp4"
+        },
+        {
+          "number": 60,
+          "title": "El cas de l'assassinat de la trobada de fans de Holmes (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S02E17.mp4"
+        }
+      ]
+    },
+    {
+      "season_number": 3,
+      "year": 1998,
+      "episodes": [
+        {
+          "number": 89,
+          "title": "El cas del segrest",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E01.mp4"
+        },
+        {
+          "number": 90,
+          "title": "L'assassinat de la gratitud de la grua",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E02.mp4"
+        },
+        {
+          "number": 91,
+          "title": "L'assassinat de Vil·la Dràcula (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E03.mp4"
+        },
+        {
+          "number": 92,
+          "title": "L'assassinat de Vil·la Dràcula (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E04.mp4"
+        },
+        {
+          "number": 93,
+          "title": "El perfum de les flors",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E05.mp4"
+        },
+        {
+          "number": 94,
+          "title": "Atracadors a l'hospital",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E06.mp4"
+        },
+        {
+          "number": 95,
+          "title": "Una travessa terrorífica (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E07.mp4"
+        },
+        {
+          "number": 96,
+          "title": "Una travessa terrorífica (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E08.mp4"
+        },
+        {
+          "number": 97,
+          "title": "L'assassinat de la dona de la neu",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E09.mp4"
+        },
+        {
+          "number": 98,
+          "title": "La cita d'en Kogoro",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E10.mp4"
+        },
+        {
+          "number": 99,
+          "title": "El famós detectiu acorralat. El cas dels dos grans assassinats en sèrie (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E11.mp4"
+        },
+        {
+          "number": 100,
+          "title": "El famós detectiu acorralat. El cas dels dos grans assassinats en sèrie (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E12.mp4"
+        },
+        {
+          "number": 101,
+          "title": "El famós detectiu acorralat. El cas dels dos grans assassinats en sèrie (III)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E13.mp4"
+        },
+        {
+          "number": 102,
+          "title": "El famós detectiu acorralat. El cas dels dos grans assassinats en sèrie (IV)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E14.mp4"
+        },
+        {
+          "number": 103,
+          "title": "El darrer brindis",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E15.mp4"
+        },
+        {
+          "number": 104,
+          "title": "L'assassinat de casa els ceramistes famosos (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E16.mp4"
+        },
+        {
+          "number": 105,
+          "title": "L'assassinat de casa els ceramistes famosos (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E17.mp4"
+        },
+        {
+          "number": 106,
+          "title": "El record del primer amor (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E18.mp4"
+        },
+        {
+          "number": 107,
+          "title": "El record del primer amor (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E19.mp4"
+        },
+        {
+          "number": 108,
+          "title": "El cas de l'assassinat de l'actor de les pel·lícules de samurais (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E20.mp4"
+        },
+        {
+          "number": 109,
+          "title": "El cas de l'assassinat de l'actor de les pel·lícules de samurais (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E21.mp4"
+        },
+        {
+          "number": 110,
+          "title": "El cas de la mansió misteriosa de la banda de malfactors (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E22.mp4"
+        },
+        {
+          "number": 111,
+          "title": "El cas de la mansió misteriosa de la banda de malfactors (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E23.mp4"
+        },
+        {
+          "number": 112,
+          "title": "El cas de l'assassinat de les fotografies exclusives",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E24.mp4"
+        },
+        {
+          "number": 113,
+          "title": "El cas del misteri d'en Mógra, l'extraterrestre (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E25.mp4"
+        },
+        {
+          "number": 114,
+          "title": "El cas del misteri d'en Mógra, l'extraterrestre (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E26.mp4"
+        },
+        {
+          "number": 115,
+          "title": "El cas de la gran persecució de la Lliga de Detectius Júnior",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E27.mp4"
+        },
+        {
+          "number": 116,
+          "title": "El cas de l'assassinat de la classe de cuina (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E28.mp4"
+        },
+        {
+          "number": 117,
+          "title": "El cas de l'assassinat de la classe de cuina (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E29.mp4"
+        },
+        {
+          "number": 118,
+          "title": "El cas dels set misteris de l'escola Téitan",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E30.mp4"
+        },
+        {
+          "number": 119,
+          "title": "El cas de l'assassinat de la platja blanca",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E31.mp4"
+        },
+        {
+          "number": 120,
+          "title": "El cas de la submarinista mossegada per la serp (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E32.mp4"
+        },
+        {
+          "number": 121,
+          "title": "El cas de la submarinista mossegada per la serp (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E33.mp4"
+        },
+        {
+          "number": 122,
+          "title": "El cas de la fuga de l'escriptor de misteri (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E34.mp4"
+        },
+        {
+          "number": 123,
+          "title": "El cas de la fuga de l'escriptor de misteri (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E35.mp4"
+        },
+        {
+          "number": 124,
+          "title": "El cas dels assassinats en sèrie de Naníwa (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E36.mp4"
+        },
+        {
+          "number": 125,
+          "title": "El cas dels assassinats en sèrie de Naníwa (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E37.mp4"
+        },
+        {
+          "number": 126,
+          "title": "El cas de l'assassinat d'en Yaïba l'emmascarat",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E38.mp4"
+        },
+        {
+          "number": 127,
+          "title": "El cas de l'assassinat del còctel de mel",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E39.mp4"
+        },
+        {
+          "number": 128,
+          "title": "El cas de l'assassinat enigmàtic del lavabo tancat (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E40.mp4"
+        },
+        {
+          "number": 129,
+          "title": "El cas de l'assassinat enigmàtic del lavabo tancat (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S03E41.mp4"
+        },
+        {
+          "number": 130,
+          "title": "El cas del segrest de la dona del temps",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E42.mp4"
+        },
+        {
+          "number": 131,
+          "title": "El cas de l'assassinat del franctirador misteriós (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E43.mp4"
+        },
+        {
+          "number": 132,
+          "title": "El cas de l'assassinat del franctirador misteriós (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E44.mp4"
+        },
+        {
+          "number": 133,
+          "title": "El cas de l'assassinat de la companyia de teatre itinerant (I)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E45.mp4"
+        },
+        {
+          "number": 134,
+          "title": "El cas de l'assassinat de la companyia de teatre itinerant (II)",
+          "type": [
+            "filler"
+          ],
+          "file": "S03E46.mp4"
+        },
+        {
+          "number": 135,
+          "title": "El cas del robatori de deu milions de iens de l'organització dels homes de negre",
+          "type": [
+            "main_story",
+            "black_organization"
+          ],
+          "file": "S03E47.mp4"
+        }
+      ]
+    },
+    {
+      "season_number": 4,
+      "year": 1999,
+      "episodes": [
+        {
+          "number": 136,
+          "title": "El cas del misteriós assassinat de la casa de la muntanya (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E01.mp4"
+        },
+        {
+          "number": 137,
+          "title": "El cas del misteriós assassinat de la casa de la muntanya (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E02.mp4"
+        },
+        {
+          "number": 138,
+          "title": "El cas del xou de màgia negra",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E03.mp4"
+        },
+        {
+          "number": 139,
+          "title": "El cas de l'assassinat de la trobada de l'hotel (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E04.mp4"
+        },
+        {
+          "number": 140,
+          "title": "El cas de l'assassinat de la trobada de l'hotel (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E05.mp4"
+        },
+        {
+          "number": 141,
+          "title": "El cas de la desaparició de la noia del bosc",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E06.mp4"
+        },
+        {
+          "number": 142,
+          "title": "El cas de l'herència de la família Mōri (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E07.mp4"
+        },
+        {
+          "number": 143,
+          "title": "El cas de l'herència de la família Mōri (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E08.mp4"
+        },
+        {
+          "number": 144,
+          "title": "El cas de l'assassinat de la pista d'hoquei",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E09.mp4"
+        },
+        {
+          "number": 145,
+          "title": "El cas del segrest al metro (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E10.mp4"
+        },
+        {
+          "number": 146,
+          "title": "El cas del segrest al metro (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E11.mp4"
+        },
+        {
+          "number": 147,
+          "title": "El cas de la casa de la muntanya amb vistes al mar",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E12.mp4"
+        },
+        {
+          "number": 148,
+          "title": "El cas de la cursa de cotxes de la terra endimonida",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E13.mp4"
+        },
+        {
+          "number": 149,
+          "title": "El cas de l'assassinat de la platja de corall",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E14.mp4"
+        },
+        {
+          "number": 150,
+          "title": "El cas de l'automòbil explosa",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E15.mp4"
+        },
+        {
+          "number": 151,
+          "title": "El cas de l'assassinat del mag Kaito Kid (I)",
+          "type": [
+            "main_story",
+            "kaito_kid"
+          ],
+          "file": "S04E16.mp4"
+        },
+        {
+          "number": 152,
+          "title": "El cas de l'assassinat del mag Kaito Kid (II)",
+          "type": [
+            "main_story",
+            "kaito_kid"
+          ],
+          "file": "S04E17.mp4"
+        },
+        {
+          "number": 153,
+          "title": "El cas del misteriós fum a la muntanya",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E18.mp4"
+        },
+        {
+          "number": 154,
+          "title": "El cas de l'assassinat de la sala de festes",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E19.mp4"
+        },
+        {
+          "number": 155,
+          "title": "El cas del missatge codificat del riu",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E20.mp4"
+        },
+        {
+          "number": 156,
+          "title": "El cas de l'assassinat de la cerimònia del te",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E21.mp4"
+        },
+        {
+          "number": 157,
+          "title": "El cas del segrest de l'avió (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E22.mp4"
+        },
+        {
+          "number": 158,
+          "title": "El cas del segrest de l'avió (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E23.mp4"
+        },
+        {
+          "number": 159,
+          "title": "El cas de l'assassinat de l'home misteriós",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E24.mp4"
+        },
+        {
+          "number": 160,
+          "title": "El cas de l'assassinat del festival de la neu",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E25.mp4"
+        },
+        {
+          "number": 161,
+          "title": "El cas de l'assassinat de la trobada d'antics alumnes (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E26.mp4"
+        },
+        {
+          "number": 162,
+          "title": "El cas de l'assassinat de la trobada d'antics alumnes (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E27.mp4"
+        },
+        {
+          "number": 163,
+          "title": "El cas de la mansió lunar",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E28.mp4"
+        },
+        {
+          "number": 164,
+          "title": "El cas del secret de la família Hatamoto",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E29.mp4"
+        },
+        {
+          "number": 165,
+          "title": "El cas de l'assassinat del mag",
+          "type": [
+            "filler"
+          ],
+          "file": "S04E30.mp4"
+        },
+        {
+          "number": 166,
+          "title": "El cas de la porta del paradís (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E31.mp4"
+        },
+        {
+          "number": 167,
+          "title": "El cas de la porta del paradís (II)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E32.mp4"
+        },
+        {
+          "number": 168,
+          "title": "El cas del tren de la bogeria (I)",
+          "type": [
+            "main_story",
+            "heiji_hattori"
+          ],
+          "file": "S04E33.mp4"
+        },
+        {
+          "number": 169,
+          "title": "El cas del tren de la bogeria (II)",
+          "type": [
+            "main_story",
+            "heiji_hattori"
+          ],
+          "file": "S04E34.mp4"
+        },
+        {
+          "number": 170,
+          "title": "El cas de l'assassinat del mag negre (I)",
+          "type": [
+            "main_story",
+            "kaito_kid"
+          ],
+          "file": "S04E35.mp4"
+        },
+        {
+          "number": 171,
+          "title": "El cas de l'assassinat del mag negre (II)",
+          "type": [
+            "main_story",
+            "kaito_kid"
+          ],
+          "file": "S04E36.mp4"
+        },
+        {
+          "number": 172,
+          "title": "El cas de la resurrecció de la mort",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E37.mp4"
+        },
+        {
+          "number": 173,
+          "title": "El cas de l'assassinat de la casa de la platja (I)",
+          "type": [
+            "main_story"
+          ],
+          "file": "S04E38.mp4"
+        }
+      ]
+    }
+  ]
+}
