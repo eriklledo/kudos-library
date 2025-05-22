@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="He millorat la seguretat de la reproducció d'episodis i he afegit l'obertura d'enllaços externs.">
+    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="He millorat la navbar i l'estructura de jerarquies a episodes.html. També he canviat el a:hover dels botons de la navbar a style.css.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/episodes_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/episodes_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/episodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/episodes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ovas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ovas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <workItem from="1747793162686" duration="105000" />
       <workItem from="1747793995256" duration="16068000" />
       <workItem from="1747840430755" duration="1830000" />
-      <workItem from="1747913293109" duration="718000" />
+      <workItem from="1747913293109" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="pushing project">
       <option name="closed" value="true" />
@@ -106,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747825994800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="He millorat la navbar i l'estructura de jerarquies a episodes.html. També he canviat el a:hover dels botons de la navbar a style.css.">
+      <option name="closed" value="true" />
+      <created>1747914222061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747914222061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,7 @@
     <MESSAGE value="pushing project" />
     <MESSAGE value="Decoring css" />
     <MESSAGE value="He millorat la seguretat de la reproducció d'episodis i he afegit l'obertura d'enllaços externs." />
-    <option name="LAST_COMMIT_MESSAGE" value="He millorat la seguretat de la reproducció d'episodis i he afegit l'obertura d'enllaços externs." />
+    <MESSAGE value="He millorat la navbar i l'estructura de jerarquies a episodes.html. També he canviat el a:hover dels botons de la navbar a style.css." />
+    <option name="LAST_COMMIT_MESSAGE" value="He millorat la navbar i l'estructura de jerarquies a episodes.html. També he canviat el a:hover dels botons de la navbar a style.css." />
   </component>
 </project>
