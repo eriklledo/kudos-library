@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="mt-auto">
                             <h5 class="card-title">${episodi.number}. ${episodi.title}</h5>
                             <div class="d-flex flex-wrap gap-2">${badges}</div>
+                            <div class="card-body" style="background: ${episodi.background}"</div>
                         </div>
                     </div>
                 </div>
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return path.replace(/[^a-zA-Z0-9_\/.\-:?=&%]/g, '');
             };
 
-            // Defineix si obre un enllaç o un arxiu
+            // Carrega el capítol de l'enllaç de dailymotion
             novaCard.addEventListener('click', () => {
                 let mediaPath = sanitizeMediaPath(episodi.file);
                 window.location.href = `episode.html?episodeNumber=${episodi.number}`;

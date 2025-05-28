@@ -249,12 +249,10 @@ main.container {
 /* ===== Estils per a episode.html ===== */
 .episode-player-wrapper {
     position: relative;
-    /* Força un aspect ratio 16:9 per defecte per a iframes i vídeo.
-       Ajusta 'padding-bottom' si necessites un altre aspect ratio per defecte. */
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide height by width) */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    background-color: var(--color-black); /* Fons negre mentre carrega */
+    background-color: var(--color-black);
     border-radius: var(--radius-base);
     box-shadow: var(--shadow-base);
 }
@@ -271,8 +269,8 @@ main.container {
 
 #player-placeholder {
     width: 100%;
-    height: 100%; /* Ocupa tot l'espai del wrapper */
-    position: absolute; /* Per superposar-se si el wrapper té 'position: relative' */
+    height: 100%;
+    position: absolute;
     top:0;
     left:0;
 }
@@ -282,8 +280,9 @@ main.container {
     background-color: var(--color-dark);
     padding: var(--space-md);
     border-radius: var(--radius-base);
-    margin-top: var(--space-lg) !important; /* Més espai després del reproductor */
+    margin-top: var(--space-lg) !important;
     box-shadow: var(--shadow-base);
+    margin-bottom: var(--space-md);
 }
 
 .episode-info h1 {
@@ -292,51 +291,19 @@ main.container {
 }
 
 .episode-navigation {
-    padding-top: var(--space-md);
-    padding-bottom: var(--space-md);
+    background-color: var(--color-dark);
+    padding: var(--space-md);
+    border-radius: var(--radius-base);
+    margin-top: var(--space-lg);
+    box-shadow: var(--shadow-base);
+    margin-bottom: var(--space-md);
 }
 
 .btn-navigation, .btn-navigation-secondary {
-    background-color: var(--color-primary);
-    color: var(--color-light);
-    border: none;
-    padding: var(--space-xs) var(--space-md);
-    border-radius: var(--radius-base);
-    transition: var(--transition-base);
-    font-weight: bold;
+    background-color: var(--color-darker) !important;
+    color: var(--color-filler) !important;
 }
-.btn-navigation-secondary {
-    background-color: var(--color-link);
-}
-
 
 .btn-navigation:hover, .btn-navigation-secondary:hover {
-    opacity: 0.85;
-    transform: translateY(-2px);
-}
-
-.btn-navigation:disabled {
-    background-color: var(--color-borderlink);
-    cursor: not-allowed;
-    opacity: 0.6;
-}
-
-.card-img-overlay-custom .card-title {
-    font-size: 1rem; /* Ajusta segons necessitis */
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* Ombra pel text per millorar llegibilitat */
-}
-.card-img-overlay-custom .badge {
-    /* Si calen ajustos específics per als badges dins l'overlay */
-    opacity: 0.9;
-}
-
-/* ===== Peu de pàgina (ajust per assegurar que quedi a baix) ===== */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main.container {
-    flex: 1; /* Permet que el main creixi i empenyi el footer cap avall */
+    color: var(--color-light);
 }

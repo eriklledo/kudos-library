@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevEpisodeBtn = document.getElementById("prev-episode-btn");
     const nextEpisodeBtn = document.getElementById("next-episode-btn");
 
-    let allEpisodesFlat = []; // Llista plana de tots els episodis per facilitar la navegació
+    let allEpisodesFlat = [];
     let currentEpisodeIndex = -1;
 
     const episodeNumber = getEpisodeNumberFromURL();
