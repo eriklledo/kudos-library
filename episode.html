@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episodi {num episodi}</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Menú principal">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a class="navbar-brand" href="index.html" aria-label="Pàgina principal">
+                    Kudo's Library
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavHeader">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavHeader">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="episodes.html">Capítols</a></li>
+                    <li class="nav-item"><a class="nav-link" href="movies.html">Pel·lícules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ovas.html">OVAs</a></li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person"></i> Registra't</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-box-arrow-in-right"></i> Inicia sessió</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container mt-4" id="episode-viewer-container">
+    <div class="row">
+        <div class="col-12">
+            <div class="episode-info mt-3">
+                <h1 id="episode-title" class="mb-2">Carregant episodi...</h1>
+                <div id="episode-badges" class="d-flex flex-wrap gap-2 mb-3">
+                    <!-- Els badges es carregaran aquí -->
+                </div>
+            </div>
+
+            <div class="episode-player-wrapper">
+                <!-- L'iframe o vídeo es carregarà aquí pel JS -->
+                <div id="player-placeholder">
+                    <!-- Reproductor de vídeo HTML5 estàndard -->
+                    <video id="html5-video-player" controls class="w-100" style="display:none;">
+                        <source src="" type="video/mp4">
+                        El teu navegador no suporta la reproducció de vídeos HTML5.
+                    </video>
+                    <!-- Contenidor per a iframes (Dailymotion, YouTube, etc.) -->
+                    <div id="iframe-container" class="embed-responsive embed-responsive-16by9" style="display:none;">
+                        <iframe id="external-video-player"
+                                style="width:100%; height:100%; position:absolute; left:0; top:0; overflow:hidden; border:none;"
+                                allowfullscreen
+                                allow="web-share autoplay">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="episode-navigation d-flex justify-content-between align-items-center mb-4">
+                <button id="prev-episode-btn" class="btn btn-navigation"><i class="bi bi-arrow-left-circle"></i> Anterior</button>
+                <a href="episodes.html" class="btn btn-navigation-secondary">
+                    <i class="bi bi-list-ul"></i> Tornar al Llistat
+                </a>
+                <button id="next-episode-btn" class="btn btn-navigation">Següent <i class="bi bi-arrow-right-circle"></i></button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="mt-auto">
+    <p>Kudo's Library - Èrik Lledó & Hermes ☤</p>
+</footer>
+
+<script src="js/episode_player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

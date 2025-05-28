@@ -9,12 +9,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
+<body>
 <header>
+  <a href="#" class="sr-only">Saltar al llistat</a>
   <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Menú principal">
     <div class="container-fluid">
       <div class="navbar-brand">
-        <a href="index.html" aria-current="page">
-          <span class="site-title">Kudo's Library</span>
+        <a class="navbar-brand" href="index.html" aria-label="Pàgina principal">
+          Kudo's Library
         </a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -37,16 +39,16 @@
     </div>
   </nav>
 </header>
-<body>
-<main class="container mt-4">
-  <div class="row mb-4">
+<main id="main-content" role="main" class="container mt-4">
+  <!-- H1 amagat -->
+  <h1 class="visually-hidden">Episodis del Detectiu Conan</h1>
 
+  <div class="row mb-4">
     <!-- Selector de temporada -->
     <div class="col-md-4">
       <label for="selector-temporada"></label><select id="selector-temporada" class="form-select">
       </select>
     </div>
-
     <!-- Paginació -->
     <div class="col-md-8 d-flex justify-content-end">
       <nav aria-label="Navegació entre temporades">
@@ -63,11 +65,9 @@
         </ul>
       </nav>
     </div>
-
+    <!-- Generador de cards -->
     <div id="capitols-grid" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-      <!-- Aquí es generaran les cards -->
     </div>
-
     <!-- Reproductor de vídeo -->
     <div class="modal fade" id="videoModal" tabindex="-1">
       <div class="modal-dialog modal-xl">
@@ -85,10 +85,8 @@
         </div>
       </div>
     </div>
-
     <!-- Contingut de la temporada actual -->
     <div class="row" id="contingut-temporada">
-      <!-- Es carrega dinàmicament -->
     </div>
   </div>
 </main>

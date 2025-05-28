@@ -61,8 +61,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const traduccions = {
                 'main_story': {text: 'Canon', classe: 'badge-canon'},
                 'filler': {text: 'Farciment', classe: 'badge-farcit'},
-                'black_organization': {text: 'Organització dels Homes de Negre', classe: 'badge-homes-de-negre'},
-                'kaito_kid': {text: 'Kaito Kid', classe: 'badge-kaito-kid'}
+                'black_organization': {text: 'Homes de Negre', classe: 'badge-homes-de-negre'},
+                'kaito_kid': {text: 'Kaito Kid', classe: 'badge-kaito-kid'},
+                'heiji_hattori': {text: 'Heiji Hattori', classe: 'badge-heiji-hattori'}
             };
 
             // 1. Genera els badges PRIMER
@@ -71,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return `<span class="badge ${traduccio.classe}">${traduccio.text}</span>`;
             }).join('');
 
-            // 2. Construeix la card
+            // 2. Construeix les cards
             const card = `
             <div class="col">
                 <div class="card h-100 card-episodi">
@@ -92,18 +93,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Traductor d'URLs
             const sanitizeMediaPath = (path) => {
-                return path.replace(/[^a-zA-Z0-9_\/\.\-:?=&%]/g, '');
+                return path.replace(/[^a-zA-Z0-9_\/.\-:?=&%]/g, '');
             };
 
             // Defineix si obre un enllaç o un arxiu
             novaCard.addEventListener('click', () => {
                 let mediaPath = sanitizeMediaPath(episodi.file);
-                if (mediaPath.startsWith('http')) {
-                    window.open(mediaPath, '_blank', 'noopener,noreferrer');
-                } else {
-                    mediaPath = `media/${encodeURI(mediaPath)}`; // encodeURI preserva '/'
-                    window.open(mediaPath, '_blank', 'noopener,noreferrer');
-                }
+                window.location.href = `episode.html?episodeNumber=${episodi.number}`;
             });
         });
     }
@@ -119,4 +115,6 @@ document.addEventListener("DOMContentLoaded", () => {
     seguentBtn.addEventListener('click', () => {
         if (temporadaActual < temporades.length) carregarTemporada(temporadaActual + 1);
     });
+
 });
+
