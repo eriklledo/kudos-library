@@ -20,13 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch('../data/episodes_data.json') // Ajusta la ruta si el teu json està en un altre lloc
+    fetch('../data/episodes_data.json')
         .then(response => {
             if (!response.ok) throw new Error(`Error HTTP! estat: ${response.status}`);
             return response.json();
         })
         .then(data => {
-            // Aplanar tots els episodis en una sola llista i ordenar-los per número
             allEpisodesFlat = data.seasons.reduce((acc, season) => {
                 const seasonEpisodes = season.episodes.map(ep => ({ ...ep, season_number_info: season.season_number, year_info: season.year }));
                 return acc.concat(seasonEpisodes);

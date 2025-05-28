@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="He refet el JSON, però no está certificat.&#10;He creat episode.html per visualitzar els episodis.&#10;He creat episode_player.js per construir el funcionament de episode.html.&#10;He personalitzat les millores al style.css.">
+    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="Millorant els navegador d'episodis.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/episodes_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/episodes_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1748267930945" duration="1568000" />
       <workItem from="1748269513144" duration="3761000" />
       <workItem from="1748286076312" duration="1442000" />
-      <workItem from="1748425251579" duration="13244000" />
+      <workItem from="1748425251579" duration="16619000" />
     </task>
     <task id="LOCAL-00001" summary="pushing project">
       <option name="closed" value="true" />
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748438118553</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Millorant els navegador d'episodis.">
+      <option name="closed" value="true" />
+      <created>1748440256840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748440256840</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +179,7 @@
     <MESSAGE value="He millorat la navbar i l'estructura de jerarquies a episodes.html. &#10;He canviat el a:hover dels botons de la navbar a style.css.&#10;&#10;He actualitzat els enllaços dels primers 15 episodis però están en castellà." />
     <MESSAGE value="He millorat la navbar i l'estructura de jerarquies a episodes.html. &#10;He canviat el a:hover dels botons de la navbar a style.css.&#10;&#10;He actualitzat els enllaços dels primers 9 episodis però están en castellà." />
     <MESSAGE value="He refet el JSON, però no está certificat.&#10;He creat episode.html per visualitzar els episodis.&#10;He creat episode_player.js per construir el funcionament de episode.html.&#10;He personalitzat les millores al style.css." />
-    <option name="LAST_COMMIT_MESSAGE" value="He refet el JSON, però no está certificat.&#10;He creat episode.html per visualitzar els episodis.&#10;He creat episode_player.js per construir el funcionament de episode.html.&#10;He personalitzat les millores al style.css." />
+    <MESSAGE value="Millorant els navegador d'episodis." />
+    <option name="LAST_COMMIT_MESSAGE" value="Millorant els navegador d'episodis." />
   </component>
 </project>
