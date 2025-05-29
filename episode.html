@@ -45,19 +45,15 @@
             <div class="episode-info mt-3">
                 <h1 id="episode-title" class="mb-2">Carregant episodi...</h1>
                 <div id="episode-badges" class="d-flex flex-wrap gap-2 mb-3">
-                    <!-- Els badges es carregaran aquí -->
                 </div>
             </div>
 
             <div class="episode-player-wrapper">
-                <!-- L'iframe o vídeo es carregarà aquí pel JS -->
                 <div id="player-placeholder">
-                    <!-- Reproductor de vídeo HTML5 estàndard -->
                     <video id="html5-video-player" controls class="w-100" style="display:none;">
                         <source src="" type="video/mp4">
                         El teu navegador no suporta la reproducció de vídeos HTML5.
                     </video>
-                    <!-- Contenidor per a iframes (Dailymotion, YouTube, etc.) -->
                     <div id="iframe-container" class="embed-responsive embed-responsive-16by9" style="display:none;">
                         <iframe id="external-video-player"
                                 style="width:100%; height:100%; position:absolute; left:0; top:0; overflow:hidden; border:none;"

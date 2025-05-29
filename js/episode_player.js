@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Actualitzar URL sense recarregar la pàgina (per si naveguen amb prev/next)
         const newUrl = `episode.html?episodeNumber=${episode.number}`;
         history.pushState({ episodeNumber: episode.number }, episode.title, newUrl);
         document.title = `${episode.number}. ${episode.title} - Kudo's Library`;
@@ -66,14 +65,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function renderBadges(types) {
-        episodeBadgesElement.innerHTML = ''; // Netejar badges anteriors
+        episodeBadgesElement.innerHTML = '';
         const traduccions = {
             'main_story': {text: 'Canon', classe: 'badge-canon'},
             'filler': {text: 'Farciment', classe: 'badge-farcit'},
             'black_organization': {text: 'Homes de Negre', classe: 'badge-homes-de-negre'},
             'kaito_kid': {text: 'Kaito Kid', classe: 'badge-kaito-kid'},
             'heiji_hattori': {text: 'Heiji Hattori', classe: 'badge-heiji-hattori'}
-            // Afegeix més traduccions si tens més tipus
         };
         types.forEach(type => {
             const traduccio = traduccions[type] || { text: type, classe: 'badge-secondary' }; // Fallback per tipus no definits
