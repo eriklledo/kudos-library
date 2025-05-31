@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="Millorant els navegador d'episodis.">
+    <list default="true" id="ddba67c6-bad6-48f5-bcc2-f9783b9a4b59" name="Changes" comment="Cleaning and trying">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/episodes_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/episodes_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,8 @@
       <workItem from="1748269513144" duration="3761000" />
       <workItem from="1748286076312" duration="1442000" />
       <workItem from="1748425251579" duration="16619000" />
-      <workItem from="1748475143501" duration="3721000" />
+      <workItem from="1748475143501" duration="7322000" />
+      <workItem from="1748568255491" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="pushing project">
       <option name="closed" value="true" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748475403044</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cleaning and trying">
+      <option name="closed" value="true" />
+      <created>1748484000627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748484000627</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +200,7 @@
     <MESSAGE value="He millorat la navbar i l'estructura de jerarquies a episodes.html. &#10;He canviat el a:hover dels botons de la navbar a style.css.&#10;&#10;He actualitzat els enllaços dels primers 9 episodis però están en castellà." />
     <MESSAGE value="He refet el JSON, però no está certificat.&#10;He creat episode.html per visualitzar els episodis.&#10;He creat episode_player.js per construir el funcionament de episode.html.&#10;He personalitzat les millores al style.css." />
     <MESSAGE value="Millorant els navegador d'episodis." />
-    <option name="LAST_COMMIT_MESSAGE" value="Millorant els navegador d'episodis." />
+    <MESSAGE value="Cleaning and trying" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning and trying" />
   </component>
 </project>
