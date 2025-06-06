@@ -20,7 +20,7 @@
           "type": [
             "main_story"
           ],
-          "file": "http://37.223.224.180:8096/web/index.html#!/videoosd/videoosd.html",
+          "file": "http://192.168.0.19:8096/web/#/video/",
           "background": "media/covers/placeholder_EP2.jpg"
         },
         {

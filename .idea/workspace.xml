@@ -53,6 +53,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.episode_player.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -96,6 +97,9 @@
       <workItem from="1748425251579" duration="16619000" />
       <workItem from="1748475143501" duration="7322000" />
       <workItem from="1748568255491" duration="1641000" />
+      <workItem from="1748656044135" duration="4171000" />
+      <workItem from="1748680926601" duration="604000" />
+      <workItem from="1748992064443" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="pushing project">
       <option name="closed" value="true" />
@@ -185,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748484000627</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cleaning and trying">
+      <option name="closed" value="true" />
+      <created>1748656055073</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748656055073</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
